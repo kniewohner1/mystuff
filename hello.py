@@ -2,7 +2,7 @@
 
 if __name__ == '__main__':
 
-    print("Enter your name: ")
-    name = raw_input()
-
-    print("Hello " % name.upper())
+   n = 5
+   for i in range(n):
+       if i >= 3:
+           print(i)
